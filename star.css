@@ -1,0 +1,42 @@
+#container{
+    width: 60%;
+    height: 60vh;
+    margin: 5% auto 0 auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#input__search{
+    width: 85%;
+    height: 8vh;
+    border: 1px solid black;
+    margin: 18% auto 0 8%;
+    padding: 0 0 0 2%;
+    outline: none;
+    font-size: 20px;
+}
+
+#character__container{
+    width: 88%;
+    height: auto;
+    /* border: 1px solid rgb(189, 24, 24); */
+    margin: 1% auto 0 8%;
+
+}
+
+#character__child{
+    display: flex;
+    color: white;
+    margin: 2% 1% 0 0 ;
+    background-color: green;
+    height: 5vh;
+    align-items: center;
+    padding: 0 0 0 1%;
+}
+
+#character__child>div{
+    margin: 0 1% 0 0 ;
+    text-transform: capitalize;
+  
+    font-weight: 700;
+}
